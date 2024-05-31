@@ -1,0 +1,733 @@
+.links li a {
+
+    color: #F2F2F2; /* Set the text color to white */
+
+ /* Remove underline from links */
+
+}
+
+/* This will make only the "Get Started" link text white */
+
+#getstarted a {
+
+    color: white;
+
+}
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #DB2270;
+
+  
+
+  
+
+}
+
+a {
+
+  text-decoration: none;
+
+  
+
+}
+
+ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+  
+
+}
+
+.container {
+
+  padding-left: 15px;
+
+  padding-right: 15px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  
+
+}
+
+.landing-page header {
+
+  min-height: 80px;
+
+  display: flex;
+
+}
+
+  .landing-page header {
+
+    min-height: auto;
+
+    display: initial;
+
+  }
+
+.landing-page header .container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+.landing-page header .logo {
+
+  color: #F2F2F2;
+
+  font-style: italic;
+
+  text-transform: uppercase;
+
+  font-size: 20px;
+
+}
+
+.landing-page header .links {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.landing-page header .links li {
+
+  margin-left: 30px;
+
+  color: #F2F2F2;
+
+  cursor: pointer;
+
+  transition: .3s;
+
+}
+
+.landing-page header .links li:last-child {
+
+  border-radius: 20px;
+
+  padding: 10px 20px;
+
+  color: #F2F2F2;
+
+  background-color: #038C73;
+
+}
+
+.landing-page .content .container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 140px;
+
+  min-height: calc(100vh - 80px);
+
+}
+
+.footer{
+
+background:#DB2270;
+
+padding:30px 0px;
+
+font-family: 'Play', sans-serif;
+
+text-align:center;
+
+}
+
+.footer .row{
+
+width:100%;
+
+margin:1% 0%;
+
+padding:0.6% 0%;
+
+color:#F2F2F2;
+
+font-size:0.8em;
+
+}
+
+.footer .row a{
+
+text-decoration:none;
+
+color:#F2F2F2;
+
+transition:0.5s;
+
+}
+
+.footer .row a:hover{
+
+color:#038C73;
+
+}
+
+.footer .row ul{
+
+width:100%;
+
+}
+
+.footer .row ul li{
+
+display:inline-block;
+
+margin:0px 30px;
+
+}
+
+.footer .row a i{
+
+font-size:2em;
+
+margin:0% 1%;
+
+ 
+
+}
+
+@media (max-width:720px){
+
+.footer{
+
+text-align:left;
+
+padding:5%;
+
+}
+
+.footer .row ul li{
+
+display:block;
+
+margin:10px 0px;
+
+text-align:left;
+
+}
+
+.footer .row a i{
+
+margin:0% 3%;
+
+}
+
+}
+
+button {
+
+  overflow: visible;
+
+}
+
+button, select {
+
+  text-transform: none;
+
+}
+
+button, input, select, textarea {
+
+  color: #5A5A5A;
+
+  font: inherit;
+
+  margin: 0;
+
+}
+
+input {
+
+  line-height: normal;
+
+}
+
+textarea {
+
+  overflow: auto;
+
+}
+
+#container {
+
+  border: solid 3px #474544;
+
+  max-width: 768px;
+
+  margin: 60px auto;
+
+  position: relative;
+
+}
+
+form {
+
+  padding: 37.5px;
+
+  margin: 50px 0;
+
+}
+
+h1 {
+
+  color: #474544;
+
+  font-size: 32px;
+
+  font-weight: 700;
+
+  letter-spacing: 7px;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+}
+
+.underline {
+
+  border-bottom: solid 2px #474544;
+
+  margin: -0.512em auto;
+
+  width: 80px;
+
+}
+
+.icon_wrapper {
+
+  margin: 50px auto 0;
+
+  width: 100%;
+
+}
+
+.icon {
+
+  display: block;
+
+  fill: #474544;
+
+  height: 50px;
+
+  margin: 0 auto;
+
+  width: 50px;
+
+}
+
+.email {
+
+	float: right;
+
+	width: 45%;
+
+}
+
+input[type='text'], [type='email'], select, textarea {
+
+	background: none;
+
+  border: none;
+
+	border-bottom: solid 2px #474544;
+
+	color: #474544;
+
+	font-size: 1.000em;
+
+  font-weight: 400;
+
+  letter-spacing: 1px;
+
+	margin: 0em 0 1.875em 0;
+
+	padding: 0 0 0.875em 0;
+
+  text-transform: uppercase;
+
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	-ms-box-sizing: border-box;
+
+	-o-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+	-webkit-transition: all 0.3s;
+
+	-moz-transition: all 0.3s;
+
+	-ms-transition: all 0.3s;
+
+	-o-transition: all 0.3s;
+
+	transition: all 0.3s;
+
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+
+	outline: none;
+
+	padding: 0 0 0.875em 0;
+
+}
+
+.message {
+
+	float: none;
+
+}
+
+.name {
+
+	float: left;
+
+	width: 45%;
+
+}
+
+select {
+
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+
+  outline: none;
+
+  -moz-appearance: none;
+
+  -webkit-appearance: none;
+
+}
+
+select::-ms-expand {
+
+  display: none;
+
+}
+
+.subject {
+
+  width: 100%;
+
+}
+
+.telephone {
+
+  width: 100%;
+
+}
+
+textarea {
+
+	line-height: 150%;
+
+	height: 150px;
+
+	resize: none;
+
+  width: 100%;
+
+}
+
+::-webkit-input-placeholder {
+
+	color: #474544;
+
+}
+
+:-moz-placeholder { 
+
+	color: #474544;
+
+	opacity: 1;
+
+}
+
+::-moz-placeholder {
+
+	color: #474544;
+
+	opacity: 1;
+
+}
+
+:-ms-input-placeholder {
+
+	color: #474544;
+
+}
+
+#form_button {
+
+  background: none;
+
+  border: solid 2px #474544;
+
+  color: #474544;
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  font-family: 'Helvetica', Arial, sans-serif;
+
+  font-size: 0.875em;
+
+  font-weight: bold;
+
+  outline: none;
+
+  padding: 20px 35px;
+
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.3s;
+
+	-moz-transition: all 0.3s;
+
+	-ms-transition: all 0.3s;
+
+	-o-transition: all 0.3s;
+
+	transition: all 0.3s;
+
+}
+
+#form_button:hover {
+
+  background: #474544;
+
+  color: #F2F3EB;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #container {
+
+    margin: 10 auto;
+
+    width: 95%;
+
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  h1 {
+
+    font-size: 26px;
+
+  }
+
+  
+
+  .underline {
+
+    width: 68px;
+
+  }
+
+  
+
+  #form_button {
+
+    padding: 15px 25px;
+
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  h1 {
+
+    font-size: 18px;
+
+  }
+
+  
+
+  .icon {
+
+    height: 35px;
+
+    width: 35px;
+
+  }
+
+  
+
+  .underline {
+
+    width: 53px;
+
+  }
+
+  
+
+  input[type='text'], [type='email'], select, textarea {
+
+    font-size: 0.875em;
+
+  }
+
+}
+
+.landing-page header {
+
+  min-height: 80px;
+
+  display: flex;
+
+}
+
+  .landing-page header {
+
+    min-height: auto;
+
+    display: initial;
+
+  }
+
+.landing-page header .container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+.landing-page header .logo {
+
+  color: #F2F2F2;
+
+  font-style: italic;
+
+  text-transform: uppercase;
+
+  font-size: 20px;
+
+}
+
+.landing-page header .links {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.landing-page header .links li {
+
+  margin-left: 30px;
+
+  color: #F2F2F2;
+
+  cursor: pointer;
+
+  transition: .3s;
+
+}
+
+.landing-page header .links li:last-child {
+
+  border-radius: 20px;
+
+  padding: 10px 20px;
+
+  color: #F2F2F2;
+
+  background-color: #038C73;
+
+}
+
+.landing-page .content .container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 140px;
+
+  min-height: calc(100vh - 80px);
+
+}
+
+.landing-page .content .info h1 {
+
+  color: #F2F2F2;
+
+  font-size: 44px;
+
+}
+
+.landing-page .content .info p {
+
+  margin: 0;
+
+  line-height: 1.6;
+
+  font-size: 15px;
+
+  color: #F2F2F2;
+
+}
+
+.landing-page .content .info button {
+
+  border: 0;
+
+  border-radius: 20px;
+
+  padding: 12px 30px;
+
+  margin-top: 45px;
+
+  cursor: pointer;
+
+  color: #F2F2F2;
+
+  background-color: #038C73;
+
+}
+
+.landing-page .content .image img {
+
+  max-width: 100%;
+
+}
